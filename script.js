@@ -48,3 +48,23 @@ document.write("<br>7. " + qualifications[6])
 document.write("<br>8. " + qualifications[7])
 
 console.log(qualifications)
+
+// Q8
+
+var studentNames = ["Ahil", "Zeehan", "Adan"]
+
+var scores = [400, 350, 450]
+
+var totalMarks = 500
+
+var percentage1 = (scores[0] / totalMarks) * 100
+var percentage2 = (scores[1] / totalMarks) * 100
+var percentage3 = (scores[2] / totalMarks) * 100
+
+console.log(studentNames[0], "Score =", scores[0], "Percentage =", percentage1 + "%")
+console.log(studentNames[1], "Score =", scores[1], "Percentage =", percentage2 + "%")
+console.log(studentNames[2], "Score =", scores[2], "Percentage =", percentage3 + "%")
+
+document.write("Student: " + studentNames[0] + " | Score: " + scores[0] + " | Percentage: " + percentage1 + "%")
+document.write("<br>Student: " + studentNames[1] + " | Score: " + scores[1] + " | Percentage: " + percentage2 + "%")
+document.write("<br>Student: " + studentNames[2] + " | Score: " + scores[2] + " | Percentage: " + percentage3 + "%")
