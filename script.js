@@ -1,5 +1,5 @@
 // Q1
-var studentNames = ["wania"]
+var studentNames = []
 
 console.log(studentNames)
 
